@@ -1,5 +1,6 @@
-import 'package:firebase_app/screens/authenticate/sign_in.dart';
 import "package:flutter/material.dart";
+
+import 'sign_in.dart';
 
 class Authenticate extends StatefulWidget {
   Authenticate({Key key}) : super(key: key);

@@ -1,5 +1,7 @@
-import 'package:firebase_app/screens/services/auth.dart';
+
 import 'package:flutter/material.dart';
+
+import '../services/auth.dart';
 
 class Home extends StatelessWidget {
   Home({Key key}) : super(key: key);

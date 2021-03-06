@@ -1,8 +1,9 @@
-import 'package:firebase_app/models/user.dart';
-import 'package:firebase_app/screens/services/auth.dart';
-import 'package:firebase_app/screens/wrapper.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import 'models/user.dart';
+import 'screens/services/auth.dart';
+import 'screens/wrapper.dart';
 
 void main() {
   runApp(MyApp());

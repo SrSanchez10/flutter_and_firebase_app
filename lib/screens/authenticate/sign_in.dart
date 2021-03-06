@@ -1,5 +1,6 @@
-import 'package:firebase_app/screens/services/auth.dart';
 import 'package:flutter/material.dart';
+
+import '../services/auth.dart';
 
 class SignIn extends StatefulWidget {
   SignIn({Key key}) : super(key: key);
