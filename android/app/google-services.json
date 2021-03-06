@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "711272358409",
+    "project_id": "tfgappmovil",
+    "storage_bucket": "tfgappmovil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711272358409:android:5f31d79b7f1f85c3010ed8",
+        "android_client_info": {
+          "package_name": "com.tfg.firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711272358409-rnku4a3ht23v54vue82g7b6ropvthiel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb5K4J5NRgnqVIBioztkii_k_xO8O1QTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711272358409-rnku4a3ht23v54vue82g7b6ropvthiel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

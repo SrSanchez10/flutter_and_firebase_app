@@ -1,4 +1,4 @@
-package com.tfg.final_proyect
+package com.tfg.firebase_app
 
 import io.flutter.embedding.android.FlutterActivity
 
