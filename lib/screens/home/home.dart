@@ -1,5 +1,6 @@
 
 import 'package:firebase_app/models/brew.dart';
+import 'package:firebase_app/screens/home/settings_form.dart';
 import 'package:flutter/material.dart';
 
 import '../services/auth.dart';
@@ -20,7 +21,7 @@ class Home extends StatelessWidget {
       showModalBottomSheet(context: context, builder: (context) {
         return Container(
           padding: EdgeInsets.symmetric(vertical: 20, horizontal: 60),
-          child: Text('bottom sheet'),
+          child: SettingsForm(),
         );
       });
     }
@@ -39,7 +40,14 @@ class Home extends StatelessWidget {
             FlatButton.icon(onPressed: () => _showSettingsPanel(), icon: Icon(Icons.settings), label: Text('settings'))
           ],
         ),
-        body: BrewList(),
+        body: Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/coffee_bg.png'),
+                fit: BoxFit.cover
+              )
+            ),
+            child: BrewList()),
       ),
     );
   }
